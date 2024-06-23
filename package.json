@@ -1,6 +1,6 @@
 {
   "name": "wsnet-client",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A fast realtime websocket framework",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "websocket",
     "libary",
     "realtime",
-    "easy"
+    "easy",
+    "client"
   ],
   "type": "module",
   "author": "Manuel Westermeier",
