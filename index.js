@@ -156,9 +156,11 @@ class Client {
 
 export default Client;
 
-export function waitForClient(client = new Client()) {
-    return new Promise(res => {
-        client.onopen = () => res(true)
-        client.onclose = () => res(false)
-    })
+export function ClientStream(host = "", params = false, handler = ((c = new Client()) => false), onClose = (async () => true)) {
+    const c = new Client(host, params)
+    c.onopen = () => handler(c)
+    c.onclose = async () => {
+        if (await onClose())
+            ClientStream(host, params, handler)
+    }
 }
