@@ -1,0 +1,17 @@
+{
+  "name": "wsnet-client",
+  "version": "1.0.0",
+  "description": "A fast realtime websocket framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "websocket",
+    "libary",
+    "realtime",
+    "easy"
+  ],
+  "author": "Manuelwestermeier",
+  "license": "ISC"
+}
