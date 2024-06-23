@@ -12,6 +12,7 @@
     "realtime",
     "easy"
   ],
-  "author": "Manuelwestermeier",
+  "type": "module",
+  "author": "Manuel Westermeier",
   "license": "ISC"
 }

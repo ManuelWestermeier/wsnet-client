@@ -5,3 +5,6 @@ git branch -M main
 git remote add origin https://github.com/ManuelWestermeier/wsnet-client.git
 git push -u origin main
 cls
+npm link
+npm publish
+cls
