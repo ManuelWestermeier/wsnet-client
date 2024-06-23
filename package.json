@@ -10,7 +10,8 @@
     "websocket",
     "libary",
     "realtime",
-    "easy"
+    "easy",
+    "client"
   ],
   "type": "module",
   "author": "Manuel Westermeier",
