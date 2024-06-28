@@ -8,11 +8,6 @@ function randomBytes(l: number): string {
     return rand;
 }
 
-interface ClientOptions {
-    url: string;
-    params?: any;
-}
-
 interface ClientObj {
     on: {
         get: Record<string, (data?: any) => any>;
@@ -150,9 +145,9 @@ class Client {
 
     // Other handlers
 
-    onclose(event: CloseEvent): void { }
+    onclose(event: CloseEvent): void { event }
     onopen(): void { }
-    onerror(event: Event): void { }
+    onerror(event: Event): void { event }
     onend(): void { }
 }
 
