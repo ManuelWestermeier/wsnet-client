@@ -48,3 +48,7 @@ const API = await waitForClient(client);
 
 console.log(await API.get("hello-world"))
 ```
+
+## Serverside
+
+[wsent-server](https://www.npmjs.com/package/wsnet-server)
