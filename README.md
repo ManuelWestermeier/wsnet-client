@@ -1,4 +1,4 @@
-﻿# wsnet-client
+# wsnet-client
 
 ## Basic setup
 
