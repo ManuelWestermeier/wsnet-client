@@ -16,5 +16,8 @@
   "types": "index.ts",
   "type": "module",
   "author": "Manuel Westermeier",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/ManuelWestermeier/wsnet-client.git"
+  }
 }
